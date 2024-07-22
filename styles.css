@@ -1,0 +1,166 @@
+/* html{
+  background: #010202;
+  margin: 0;
+  padding: 0;
+} */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  background: #5b9299;
+  color: #020910;
+}
+.hh{
+  width:100%;
+  height:100px;
+  background-color:#074a5e;
+  position:relative;
+  margin:0px;
+  padding: 0px;
+  color:#b8bec0;
+}
+a{
+  color: #910858;
+}
+.gg{
+  color:#0e3f64;;
+}
+.yellow{
+  color: #da0404;
+}
+.correct{
+  color: #bbff00;
+}
+.wrong{
+  color: #e84545;
+  text-decoration: underline;
+}
+.current{
+  color: #eeeeee;
+}
+.center{
+  text-align: center;
+}
+.if{
+  display: inline-flex;
+}
+
+.box {
+  max-width: 900px;
+  padding: 0px;
+}
+
+#heading{
+  align-self: left;
+  margin-top: 0px;
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.limits-box{
+  text-align: right;
+  margin: 0 0px 0 0 ;
+  font-size: 25px;
+}
+
+.ll{
+  margin:20px;
+  padding:0px;
+  
+}
+.stats{
+  margin: 30px auto 20px auto;
+}
+
+.details{
+  font-size: 6rem;
+}
+.stat-block{
+  padding: 0 px;
+  min-width: 250px;
+}
+
+@media(max-width: 600px){
+  .details{
+    font-size: 5rem;
+  }
+  .stat-block{
+    min-width: 0;
+  }
+}
+
+.stat-name{
+  font-size: 1rem;
+  position: relative;
+  top: 45px;
+  right: 5px;
+}
+
+.text-display{
+  margin: 0 0 22px 0;
+  font-size: 21px;
+  text-align: left;
+  min-height: 200px;
+  color: #072e3a;
+}
+
+
+input:focus, textarea:focus, select:focus, a:focus{
+  outline: 0 ;
+  transition: 300MS;
+}
+a:focus,a:hover{
+  color: #ffd369;
+  text-decoration: none;
+  /* font-size: 28PX; */
+  transition: 300MS;
+  
+  
+}
+
+
+.fin{
+  background:rgb(120, 182, 192);
+  height:190px;
+  width:1200px;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 10px;
+  border:#020910;
+  border-style: groove;
+  padding: 30px;
+}
+.restart-button{
+  padding: 10px;
+}
+
+textarea{
+  position: absolute;
+  top:625px;
+  left:650px;
+  
+  background: #5ebcb0;
+  border: solid;
+  border-color:#1e4f5f;
+  border-width: 5px;
+  border-radius: 10px;
+  color: #041403;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.m{
+  justify-content:center;
+  justify-items:baseline;
+  display: flex;
+  margin: 0;
+  font-size: 26PX;
+ /* height:50px;
+ width:50px; */
+ 
+}
